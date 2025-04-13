@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import HeroExperience from "../components/HeroModels/HeroExperience";
 import { words } from "../constants";
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
 
       <div className="hero-layout">
         {/* Left: Display Hero content here */}
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20px-5">
+        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
@@ -42,8 +43,7 @@ const Hero = () => {
               <h1>that deliver results</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I'm Kimbowa, a Software Engineer based in Uganda with Passion
-              for code.
+              Hi, I'm Kimbowa, a Software Engineer with Passion for code.
             </p>
 
             <Button
@@ -55,6 +55,11 @@ const Hero = () => {
         </header>
 
         {/* Right: Display 3D Model */}
+        <figure>
+          <div className="hero-3d-layout lg:border-red-200 lg:border-2">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
     </section>
   );
