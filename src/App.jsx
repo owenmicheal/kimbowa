@@ -1,8 +1,9 @@
-import FeaturedCards from "./components/FeaturedCards";
-import LogoSection from "./components/LOgoSection";
+import FeaturedCards from "./sections/FeaturedCards";
+import LogoSection from "./sections/LogoSection";
 import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
 import ShowCase from "./sections/ShowCase";
+import ExperienceSection from "./sections/ExperienceSection";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <ShowCase />
       <LogoSection />
       <FeaturedCards />
+      <ExperienceSection />
     </>
   );
 };
