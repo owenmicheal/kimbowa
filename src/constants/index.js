@@ -79,8 +79,8 @@ const abilities = [
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Atentention to Detail",
+    desc: "Ensuring all aspects of the project are thoroughly checked and polished.",
   },
   {
     imgPath: "/images/time.png",

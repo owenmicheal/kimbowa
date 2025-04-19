@@ -1,3 +1,4 @@
+import FeaturedCards from "./components/FeaturedCards";
 import LogoSection from "./components/LOgoSection";
 import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <ShowCase />
       <LogoSection />
+      <FeaturedCards />
     </>
   );
 };
