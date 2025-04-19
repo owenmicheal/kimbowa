@@ -83,7 +83,7 @@ const ShowCase = () => {
               <div className="image-wrapper bg-[#ffefeb]">
                 <img src="/images/project3.png" alt="Najji Shoe" />
               </div>
-              <h2>NAjjishoe - Shoe selling Platform</h2>
+              <h2>Najjishoe - Shoe selling Platform</h2>
             </div>
           </div>
         </div>
